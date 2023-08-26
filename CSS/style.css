@@ -1,0 +1,72 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url('../IMG/header.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+hr {
+    margin: 30px auto;
+    color: #F05F44;
+    border: 1px solid #F05F44;
+    max-width: 100%;
+    opacity: 1;  
+}
+.hr-sm {
+  max-width: 20%;
+}
+ 
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#FFF3D7, #FFF674 );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+} 
+
+div {
+  display: flex;
+} 
+
+.buffer {
+  height: 7rem;
+}
+.row {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 490px;
+}
+
+.buttonDiv {
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  background-color: #FF7800;
+  border-color: #FF7800;
+}
+
+.btn:hover {
+  background-color: #FFD874;
+  border-color: #FF7800;
+  border-width: 4px;
+}
+/*file:///C:/Users/liudm/Desktop/index/startup_files_start/startup_files/index.html*/
